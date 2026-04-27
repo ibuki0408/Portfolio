@@ -6,12 +6,7 @@ const About = () => {
         <h1 className="hero-title">Ibuki Kimpara</h1>
         <h2 className="hero-subtitle">Network Protocol Researcher &amp; Software Engineer</h2>
         <div className="glass-panel" style={{ marginTop: '2rem' }}>
-          <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-            <strong>「ビジネスの課題を技術で解決する実行力」</strong>を強みに、
-            無線ネットワークプロトコルの研究と、クラウド技術を用いたフルスタック開発を行っています。
-            現場の課題を特定し、ゼロからシステムを設計・実装することで、実業務にインパクトを与えるソリューションを創出することを得意としています。
-          </p>
-          <p style={{ marginTop: '1rem', opacity: 0.8 }}>
+          <p style={{ opacity: 0.8 }}>
             Email: <a href="mailto:ibk.04081189@gmail.com">ibk.04081189@gmail.com</a>
           </p>
         </div>
