@@ -23,9 +23,9 @@ const About = () => {
               <h3 className="timeline-title">慶應義塾大学大学院 理工学研究科</h3>
               <p className="timeline-subtitle">修士課程 開放環境科学専攻 (足立研究室)</p>
               <ul className="timeline-details">
-                <li><strong>研究テーマ:</strong> 低消費電力広域ネットワーク（LoRa）における受信信号強度（RSSI）を用いた時刻同期手法の研究。</li>
-                <li><strong>アプローチ:</strong> JuliaやPythonを用いた自作シミュレーションモデルによる通信成功率や衝突確率の理論解析。</li>
-                <li><strong>活動:</strong> 2026年4月 入学、2028年3月 修了見込み。</li>
+                <li><strong>研究テーマ:</strong> 低消費電力広域ネットワーク（LoRa）における外部信号を用いた時刻同期手法の研究</li>
+                <li><strong>アプローチ:</strong> JuliaやPythonを用いた自作シミュレーションモデルによる通信成功率や衝突確率の理論解析</li>
+                <li><strong>活動:</strong> 2026年4月 入学 - 2028年3月 修了見込み</li>
               </ul>
             </div>
           </div>
@@ -37,9 +37,9 @@ const About = () => {
               <h3 className="timeline-title">慶應義塾大学 理工学部</h3>
               <p className="timeline-subtitle">情報工学科 (学士)</p>
               <ul className="timeline-details">
-                <li><strong>学修内容:</strong> 情報工学全般（アルゴリズム、OS、ネットワーク等）を修得。</li>
-                <li><strong>卒業研究:</strong> 5G SSB信号を用いた高精度な時刻同期メカニズムの開発と評価に従事。</li>
-                <li><strong>活動:</strong> 2022年4月 入学、2026年3月 卒業。</li>
+                <li><strong>学修内容:</strong> 情報工学全般（アルゴリズム・OS・ネットワーク等）を修得</li>
+                <li><strong>卒業研究:</strong> 外部信号を用いた低消費電力広域ネットワーク（LoRa）における時刻同期メカニズムの研究</li>
+                <li><strong>活動:</strong> 2022年4月 入学 - 2026年3月 卒業</li>
               </ul>
             </div>
           </div>
@@ -59,18 +59,18 @@ const About = () => {
               <div style={{ marginTop: '1.5rem' }}>
                 <h4 style={{ color: 'var(--accent-cyan)', marginBottom: '0.5rem' }}>Challenge: スケーラブルな自社サービスのゼロからの構築</h4>
                 <p style={{ fontSize: '0.95rem', marginBottom: '1rem' }}>
-                  実務において、将来的な負荷増やコスト効率まで考慮した設計・実装に挑戦。
-                  特に、Webサイトの誤字脱字や必須表現をスクレイピングで自動点検するサービスの開発では、
-                  「現場のニーズを如何に仕様へ落とし込むか」というプロセスを主導しました。
+                  実務において，将来的な負荷増やコスト効率まで考慮した設計・実装に挑戦．
+                  特に，Webサイトの誤字脱字や必須表現をスクレイピングで自動点検するサービスの開発では，
+                  「現場のニーズを如何に仕様へ落とし込むか」というプロセスを主導しました．
                 </p>
                 <ul className="timeline-details">
-                  <li><strong>コスト最適化:</strong> AWS Lambdaを用いたサーバーレス構成と適切なAPIモデルの選定により、実装コストを大幅に抑制。</li>
-                  <li><strong>UI/UX設計:</strong> 現場社員の方々とのヒアリングを重ね、複雑な自動化プロセスを直感的に操作できる機能分割・UIを実装。</li>
-                  <li><strong>PM・コミュニケーション:</strong> 開発目線での実現可能性とコスト面の両立を現場に提案し、相互理解に基づいた要件定義を実施。</li>
-                  <li><strong>継続性:</strong> 他部署への横展開を視野に入れた設計と、後任者へのスムーズな引継ぎのための詳細なドキュメント作成。</li>
+                  <li><strong>コスト最適化:</strong> AWS Lambdaを用いたサーバーレス構成と適切なAPIモデルの選定により，実装コストを大幅に抑制．</li>
+                  <li><strong>UI/UX設計:</strong> 現場社員の方々とのヒアリングを重ね，複雑な自動化プロセスを直感的に操作できる機能分割・UIを実装．</li>
+                  <li><strong>PM・コミュニケーション:</strong> 開発目線での実現可能性とコスト面の両立を現場に提案し，相互理解に基づいた要件定義を実施．</li>
+                  <li><strong>継続性:</strong> 他部署への横展開を視野に入れた設計と，後任者へのスムーズな引継ぎのための詳細なドキュメント作成．</li>
                 </ul>
                 <p style={{ fontSize: '0.9rem', marginTop: '1rem', fontStyle: 'italic', opacity: 0.8 }}>
-                  「技術知識を現場で活かすには、ニーズを汲み取るコミュニケーション能力と信頼関係が不可欠である」という学びを得ました。
+                  「技術知識を現場で活かすには，ニーズを汲み取るコミュニケーション能力と信頼関係が不可欠である」という学びを得ました．
                 </p>
               </div>
             </div>
