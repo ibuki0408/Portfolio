@@ -28,8 +28,9 @@ const About = () => {
               <h3 className="timeline-title">慶應義塾大学大学院 理工学研究科</h3>
               <p className="timeline-subtitle">修士課程 開放環境科学専攻 (足立研究室)</p>
               <ul className="timeline-details">
-                <li>低消費電力広域ネットワーク（LoRa）における受信信号強度（RSSI）を用いた時刻同期手法の研究。</li>
-                <li>JuliaやPythonを用いた自作シミュレーションモデルによる通信成功率や衝突確率の理論解析と評価。</li>
+                <li><strong>研究テーマ:</strong> 低消費電力広域ネットワーク（LoRa）における受信信号強度（RSSI）を用いた時刻同期手法の研究。</li>
+                <li><strong>アプローチ:</strong> JuliaやPythonを用いた自作シミュレーションモデルによる通信成功率や衝突確率の理論解析。</li>
+                <li><strong>活動:</strong> 2026年4月 入学、2028年3月 修了見込み。</li>
               </ul>
             </div>
           </div>
@@ -41,7 +42,9 @@ const About = () => {
               <h3 className="timeline-title">慶應義塾大学 理工学部</h3>
               <p className="timeline-subtitle">情報工学科 (学士)</p>
               <ul className="timeline-details">
-                <li>情報工学を全般的に修得し、通信プロトコルおよび分散システムに注力。</li>
+                <li><strong>学修内容:</strong> 情報工学全般（アルゴリズム、OS、ネットワーク等）を修得。</li>
+                <li><strong>卒業研究:</strong> 5G SSB信号を用いた高精度な時刻同期メカニズムの開発と評価に従事。</li>
+                <li><strong>活動:</strong> 2022年4月 入学、2026年3月 卒業。</li>
               </ul>
             </div>
           </div>
