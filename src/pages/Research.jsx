@@ -1,3 +1,6 @@
+
+import LoraSimulator from '../components/LoraSimulator';
+
 const Research = () => {
   return (
     <div className="animate-fade-in">
@@ -12,9 +15,7 @@ const Research = () => {
           LoRaWANは低消費電力で広域な通信が可能ですが，端末数が増えるとパケット衝突が深刻な課題となります．
           私の研究では，外部信号の受信信号強度（RSSI）を活用した新しい時刻同期手法を開発し，各端末の送信タイミングを「スロット」に整列させることで衝突を回避する手法を提案しています．
         </p>
-        <div style={{ margin: '2rem 0', padding: '2rem', background: 'rgba(0,0,0,0.2)', borderRadius: '12px', textAlign: 'center' }}>
-          <p style={{ opacity: 0.6 }}>[ 受信電力プロファイル または シミュレーション結果のグラフをここに参照 ]</p>
-        </div>
+        <LoraSimulator />
         <h3>主な取り組みと成果</h3>
         <ul style={{ marginLeft: '1.5rem', marginTop: '1rem', listStyleType: 'square' }}>
           <li><strong>理論解析:</strong> ポアソン過程に基づいたパケット衝突確率の理論解析（PPPモデル）の構築．</li>

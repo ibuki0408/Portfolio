@@ -21,7 +21,7 @@ const About = () => {
             <div className="glass-panel timeline-content">
               <p className="timeline-date">2026.04 - 2028.03 (Expected)</p>
               <h3 className="timeline-title">慶應義塾大学大学院 理工学研究科</h3>
-              <p className="timeline-subtitle">修士課程 開放環境科学専攻 (足立研究室)</p>
+              <p className="timeline-subtitle">修士課程 人間・社会システム情報科学専攻 (安達研究室)</p>
               <ul className="timeline-details">
                 <li><strong>研究テーマ:</strong> 低消費電力広域ネットワーク（LoRa）における外部信号を用いた時刻同期手法の研究</li>
                 <li><strong>アプローチ:</strong> JuliaやPythonを用いた自作シミュレーションモデルによる通信成功率や衝突確率の理論解析</li>
@@ -43,6 +43,18 @@ const About = () => {
               </ul>
             </div>
           </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="glass-panel timeline-content">
+              <p className="timeline-date">2018.04 - 2021.03</p>
+              <h3 className="timeline-title">静岡県立浜松北高等学校</h3>
+              <p className="timeline-subtitle">普通科</p>
+              <ul className="timeline-details">
+                <li><strong>活動:</strong> 2018年4月 入学 - 2021年3月 卒業</li>
+                <li><strong>課外活動:</strong> 硬式野球部</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -57,11 +69,14 @@ const About = () => {
               <h3 className="timeline-title">株式会社アイフラッグ</h3>
               <p className="timeline-subtitle">Software Engineer &amp; Project Manager (Intern)</p>
               <div style={{ marginTop: '1.5rem' }}>
-                <h4 style={{ color: 'var(--accent-cyan)', marginBottom: '0.5rem' }}>Challenge: スケーラブルな自社サービスのゼロからの構築</h4>
+                <h4 style={{ color: 'var(--accent-cyan)', marginBottom: '0.5rem' }}>Challenge: AIとクラウドサービスによる業務効率化</h4>
                 <p style={{ fontSize: '0.95rem', marginBottom: '1rem' }}>
-                  実務において，将来的な負荷増やコスト効率まで考慮した設計・実装に挑戦．
-                  特に，Webサイトの誤字脱字や必須表現をスクレイピングで自動点検するサービスの開発では，
-                  「現場のニーズを如何に仕様へ落とし込むか」というプロセスを主導しました．
+                  AIとクラウドサービスを組み合わせ，業務効率化を実現するサービスの開発に挑戦．
+                  <br></br>
+                  具体的なタスク内容
+                  ・OCRを用いた名刺管理アプリケーションの開発
+                  ・作成したWebサイトのスクレイピングによる自動点検アプリケーションの開発
+                  ・接骨院に向けた新商品開発
                 </p>
                 <ul className="timeline-details">
                   <li><strong>コスト最適化:</strong> AWS Lambdaを用いたサーバーレス構成と適切なAPIモデルの選定により，実装コストを大幅に抑制．</li>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const PROJECTS = [
   {
@@ -32,13 +32,22 @@ const Projects = () => {
 
   const openModal = (project) => {
     setSelectedProject(project);
-    document.body.style.overflow = 'hidden';
   };
 
   const closeModal = () => {
     setSelectedProject(null);
-    document.body.style.overflow = 'auto';
   };
+
+  useEffect(() => {
+    if (selectedProject) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [selectedProject]);
 
   return (
     <div className="animate-fade-in">
